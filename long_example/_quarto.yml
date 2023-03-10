@@ -1,0 +1,14 @@
+acronyms:
+  html:
+    short: HTML
+    long: hypertext markup "language"
+  dhs:
+    short: DHS
+    long: "Demographic and Health Surveys"
+  css:
+    short: "CSS"
+    long: Cascading Style Sheets
+  amphetamine: alpha-methylphenethylamine
+
+project:
+  post-render: clean-up.R

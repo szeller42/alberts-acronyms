@@ -1,0 +1,39 @@
+---
+author: Sarah Zeller
+pdf-engine: pdflatex
+format:
+  html:
+    preserve-tabs: true
+    tab-stop: 8
+    self-contained: true
+  pdf:
+    toc: true
+    keep-tex: true
+  docx: 
+    toc: true
+    # include-in-header: \usepackage[version = 2]{acro}
+filters:
+  - ../acronyms.lua
+
+---
+
+This is a test with [html]{.acro}.
+Now, this is the second time I'll use [html]{.acro}.
+
+This is a third test with [html]{.acro}.
+
+And let's check out [dhs]{.acro} out, just one more time: [dhs]{.acro}.
+
+now let's try [amphetamine]{.acro}
+now let's try [amphetamine]{.acro}
+
+and a new abbreviation is [css]{.acro}
+and a new abbreviation is [css]{.acro}
+and a new abbreviation is [css]{.acro}
+
+## Acronyms
+
+The following acronyms are used in this thesis.
+
+:::{#acronym-defs}
+:::
